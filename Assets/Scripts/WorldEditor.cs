@@ -6,8 +6,8 @@ using UnityEngine.Tilemaps;
 public class WorldEditor : MonoBehaviour
 {
     public Tile selectedTile;
-    private Tilemap world;
-    private Tilemap overlay;
+    public Tilemap world;
+    public Tilemap overlay;
     // Start is called before the first frame update
     void Start()
     {
