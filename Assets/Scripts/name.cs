@@ -10,12 +10,10 @@ namespace randomnamegenerator
     {
         public static void Main(string[] args)
         {
-            String[] first = new String[] {"Brown", "Black", "White", "Orange", "Wild", "Tiger", "Snow Leopard", "Koo",
-                                          "Kooapps", "Gray", "Zombie", "Gumdrop", "Candy", "Choco", "Darth", "Dark",
-                                          "Goldfish on a", "Evil", "German", "Beach", "City", "Haunted", "Spooky"};
-            String[] last = new String[] {"Dog", "Cat", "Dalmation", "Bird", "Koobird", "Goldfish", "Turtle", "Clyde",
-                                         "Selina", "Troy", "Oscar", "Lily", "Skateboard", "Swim E Fresh", "Pip", "Leo",
-                                         "Raph", "Donny", "Mikey", "Man", "Sloth", "Ferret", "Grandpa", "Voviboye"};
+            String[] first = new String[] {"Adam", "Allan", "Brian", "Bob", "Collin", "Cole", "Connor", "Kwami",
+                                          "Hasan", "Greg", "Joseph", "Roberto", "James", "Jaime", "Miguel", "Michael",
+                                          "Asad", "Mohammed", "Jeff", "Kyle", "John", "Alejandro", "DeShawn"};
+            String[] last = new String[] {"Roberts", "Smith", "Rodriguez", "St. James", "O'Connor", "Williams", "Dial", "Merrick"};
 
             string n = "";
             Random rnd = new Random();
@@ -25,7 +23,9 @@ namespace randomnamegenerator
             x = rnd.Next(0, first.Length);
             y = rnd.Next(0, last.Length);
 
-            Console.WriteLine(first[x] + " " + last[y]);
+         Console.WriteLine(first[x] + " " + last[y]);
+            
+
         }
     }
 }
