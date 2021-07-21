@@ -18,12 +18,16 @@ public class BusinessMasterController : MonoBehaviour
     int employees;
     //TODO
     //change to type meeple when possible
-    List<int> employeeType = new List<int>();
+    
 
     // Start is called before the first frame update
     void Start()
     {
         profit = revenue - costs;
+
+        List<string> listNames = new List<string>() { "finn", "zac" };
+        listNames.Add();
+        print(listNames);
         
     }
 
