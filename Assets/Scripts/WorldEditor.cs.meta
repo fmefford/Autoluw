@@ -4,8 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - selectedTile: {fileID: 11400000, guid: 5f3fcd831852e3247b7d165a3ddab2dc, type: 2}
-  - world: {fileID: 8592654807260350985, guid: 9c78db9d839642049b2ab2ae42822487, type: 3}
+  - selectedTile: {fileID: 11400000, guid: 902168cb257dc0641adcf4640cc5a6e1, type: 2}
+  - world: {instanceID: 0}
+  - overlay: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

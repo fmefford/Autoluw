@@ -30,7 +30,6 @@ public class WorldEditor : MonoBehaviour
         {
             world.SetTile(mousePos, selectedTile);
             world.SetTransformMatrix(mousePos, Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0f, 0f, 90f * currRotation),Vector3.one));
-            world.GetComponent<MapManager>().UpdateRoad(mousePos);
         }
         overlay.SetTile(mousePos, selectedTile);
         overlay.SetTransformMatrix(mousePos, Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(0f, 0f, 90f * currRotation), Vector3.one));
