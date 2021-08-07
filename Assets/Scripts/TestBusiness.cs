@@ -17,6 +17,11 @@ public class TestBusiness : BusinessMasterController
     int minTransitSupport;
 
     int employees;
+
+    List<string> listNames = new List<string>() { };
+    listNames.Add();
+    print(listNames);
+
     //TODO
     //change to type meeple when possible
     List<int> employeeType = new List<int>();
