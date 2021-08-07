@@ -26,8 +26,8 @@ public class BusinessMasterController : MonoBehaviour
         profit = revenue - costs;
 
         List<string> listNames = new List<string>() { "finn", "zac" };
-        listNames.Add();
-        print(listNames);
+        //listNames.Add();
+        //print(listNames);
         
     }
 
