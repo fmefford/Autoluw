@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: RoadProtectedBikeStraight
+  m_Script: {fileID: 11500000, guid: 38e0ecc08db1bb644bfe921f875e8320, type: 3}
+  m_Name: StandardRoad
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 1a81e3a3154d3714b990c82325646f15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5162468e17f7fb540bda3afdb955fc53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -34,3 +34,9 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
   m_ColliderType: 1
+  m_Sprites:
+  - {fileID: 21300000, guid: 5162468e17f7fb540bda3afdb955fc53, type: 3}
+  - {fileID: 21300000, guid: ba7e9a14303ef2940903c7bb6d5ebc85, type: 3}
+  - {fileID: 21300000, guid: 5162468e17f7fb540bda3afdb955fc53, type: 3}
+  - {fileID: 21300000, guid: e2ec231bef609cd4380777e54b8a7aa0, type: 3}
+  - {fileID: 21300000, guid: 06fe9e177117ec548bd9cf881151bbc3, type: 3}

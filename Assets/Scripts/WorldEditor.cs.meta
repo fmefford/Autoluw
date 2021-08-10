@@ -4,7 +4,8 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - selectedTile: {fileID: 11400000, guid: 902168cb257dc0641adcf4640cc5a6e1, type: 2}
+  - standard: {instanceID: 0}
+  - bikeLane: {instanceID: 0}
   - world: {instanceID: 0}
   - overlay: {instanceID: 0}
   executionOrder: 0

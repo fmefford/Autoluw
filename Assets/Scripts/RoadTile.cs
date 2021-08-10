@@ -47,7 +47,15 @@ public class RoadTile : Tile
     // This determines if the Tile at the position is the same RoadTile.
     private bool HasRoadTile(ITilemap tilemap, Vector3Int position)
     {
-        return tilemap.GetTile(position) == this;
+        TileBase adjTile = tilemap.GetTile(position);
+        if (adjTile == null)
+        {
+            return false;
+        }
+        else
+        {
+            return adjTile.GetType() == this.GetType();
+        }
     }
     // The following determines which sprite to use based on the number of adjacent RoadTiles
     private int GetIndex(byte mask)

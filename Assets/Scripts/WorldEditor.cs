@@ -5,7 +5,10 @@ using UnityEngine.Tilemaps;
 
 public class WorldEditor : MonoBehaviour
 {
-    public Tile selectedTile;
+    private Tile selectedTile;
+    public Tile standard;
+    public Tile bikeLane;
+    public Tile protectedBikeLane;
     public Tilemap world;
     public Tilemap overlay;
     private float currRotation = 0;
@@ -15,6 +18,7 @@ public class WorldEditor : MonoBehaviour
     {
         world = world.GetComponent<Tilemap>();
         overlay = overlay.GetComponent<Tilemap>();
+        selectedTile = standard;
     }
 
     // Update is called once per frame
@@ -22,6 +26,18 @@ public class WorldEditor : MonoBehaviour
     {
         overlay.ClearAllTiles();
         mousePos = world.WorldToCell(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        if(Input.GetKeyDown(KeyCode.F1))
+        {
+            selectedTile = standard;
+        }
+        else if(Input.GetKeyDown(KeyCode.F2))
+        {
+            selectedTile = bikeLane;
+        }
+        else if(Input.GetKeyDown(KeyCode.F3))
+        {
+            selectedTile = protectedBikeLane;
+        }
         if (Input.GetMouseButtonDown(1))
         {
             currRotation++;

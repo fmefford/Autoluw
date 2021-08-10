@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: RoadProtectedBikeCurved
+  m_Script: {fileID: 11500000, guid: 38e0ecc08db1bb644bfe921f875e8320, type: 3}
+  m_Name: ProtectedBikeLaneRoad
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: cbf137acdf4d0f44286484b71ab3e411, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a81e3a3154d3714b990c82325646f15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -34,3 +34,9 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
   m_ColliderType: 1
+  m_Sprites:
+  - {fileID: 21300000, guid: 1a81e3a3154d3714b990c82325646f15, type: 3}
+  - {fileID: 21300000, guid: cbf137acdf4d0f44286484b71ab3e411, type: 3}
+  - {fileID: 21300000, guid: 1a81e3a3154d3714b990c82325646f15, type: 3}
+  - {fileID: 21300000, guid: 544858d238c0d12438032bd7a945b481, type: 3}
+  - {fileID: 21300000, guid: 3de9d05ecebd9654ba30beb7a4975859, type: 3}
